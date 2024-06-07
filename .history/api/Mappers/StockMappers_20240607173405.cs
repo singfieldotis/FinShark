@@ -30,10 +30,8 @@ namespace api.Mappers
             {
                 Symbol = stockDto.Symbol,
                 CompanyName = stockDto.CompanyName,
-                Purchase = stockDto.Purchase,
-                LastDiv = stockDto.LastDiv,
-                Industry = stockDto.Industry,
-                MarketCap = stockDto.MarketCap
+
+
             };
         }
     }
